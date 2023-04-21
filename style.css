@@ -1,0 +1,148 @@
+/* Estilos para el contenedor */
+#contenedor {
+	width: 98%;
+	background-color: #bbbbbb;
+	border: 2px solid #444;
+	padding: 10px;
+	border-radius: 10px; /* redondea los bordes del contenedor */
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3); /* agrega una sombra alrededor del contenedor */
+
+	position: fixed;
+
+  	z-index: 1; /* Asegura que el menú se muestre por encima de otros elementos */
+	
+}
+
+
+body {
+	background-image: url('Img/fondo2.jpg');
+	background-size: cover; /* Estira la imagen para cubrir todo el fondo */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  
+
+/* Estilos para el menú de navegación */
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: #050D4A; /* Hacer el azul un poco más oscuro */
+	width: 100%;
+	text-align: center; /* Centra el texto horizontalmente en el menú */
+	line-height: 100px; /* Centra el texto verticalmente en el centro del menú */
+
+
+  }
+  
+  #menu li {
+	display: inline-block; /* Muestra los elementos del menú en línea */
+
+  }
+  
+  #menu li a {
+	display: block;
+	color: #fff;
+
+	padding: 0 20px; /* Ajusta el padding para alinear el texto correctamente */
+	text-decoration: none;
+	
+	
+  }
+  
+  #menu li a:hover {
+	background-color:#8692CD;
+	
+  }
+  
+  #menu li a:active {
+	background-color: #49506F;
+	
+  }
+
+
+#menu li a .icono {
+	margin-right: 15px;
+  }
+
+
+  #contenido {
+    width: 90%; /* Ancho del contenido de la página */
+    margin: 10px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
+    border: 2px solid #ccc; /* Borde de 2px sólido en color gris */
+    padding-top: 120px; /* Espaciado superior de 120px para evitar que el contenido choque con el menú */
+    display: flex;
+    flex-wrap: wrap; /* Para que los divs internos puedan "envolver" en caso de no caber en una sola fila */
+    justify-content: center; /* Centrado horizontal de los divs internos */
+    align-items: center; /* Centrado vertical de los divs internos */
+}
+
+.seccion {
+	width: 80%; /* Ancho de cada sección */
+	margin: 10px auto; /* Margen entre las secciones */
+	padding: 10px; /* Espaciado interno de cada sección */
+	background-color: #dfdfdf; /* Color de fondo de cada sección */
+	border: 2px solid #ccc; /* Borde de 2px sólido en color gris */
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+	text-align: center;
+  
+}
+
+
+.seccion img{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	}
+
+.seccion p {
+	text-align: center; /* Centrar el texto */
+	color: #333; /* Color de texto oscuro para una mejor lectura en fondo gris */
+	line-height: 1.5; /* Ajustar el espaciado entre líneas para una mejor legibilidad */
+	padding: 10px; /* Añadir un poco de espacio entre el borde y el texto */
+	
+	font-weight: bold;
+	font-family: 'Comic Sans MS', cursive;
+
+  }
+  
+.seccion h2 {
+	text-align: center; /* Centrar el texto */
+	color: #333; /* Color de texto oscuro para una mejor lectura en fondo gris */
+	line-height: 1.5; /* Ajustar el espaciado entre líneas para una mejor legibilidad */
+
+	font-family: 'Comic Sans MS', cursive;
+
+  }
+  
+  .enlace-ovalado {
+	display: inline-block;
+	text-align: center;
+	
+	font-size: 16px; /* ajusta el tamaño de la fuente según tus necesidades */
+	padding: 8px 16px; /* ajusta el ancho del padding según tus necesidades */
+
+	border-radius: 50%;
+	background-color: #ccc;
+	margin: 0 auto;
+	border: 2px solid black;
+
+
+}
+
+
+.enlace-ovalado:hover {
+	background-color: #8692CD;
+}
+
+.enlace-ovalado a {
+	display: block;
+	line-height: 80px;
+	font-weight: bold;
+	color: #ff0000;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	padding: 5px;
+}
